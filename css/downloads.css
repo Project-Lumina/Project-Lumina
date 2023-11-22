@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #121212; 
+    font-family: 'Lexend', sans-serif; 
+    color: #ffffff;
+    margin: 0; 
+}
+
+.content {
+    margin-left: 220px; 
+    padding: 20px;
+}
+
+.downloads-page {
+    text-align: center;
+    color: #ffffff; 
+    padding-top: 20px;
+}
+
+.section {
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.releases h2,
+.pre-releases h2 {
+    color: #00A65A; 
+    font-size: 24px;
+    font-weight: bold;
+    padding-bottom: 1px; 
+}
+
+.release-versions {
+    list-style: none;
+    padding: 0;
+}
+
+.release-version {
+    background-color: #1E1E1E; 
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+.release-version h3 {
+    color: #ffffff; 
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.changelog {
+    background-color: #2D2D2D; 
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.changelog p {
+    color: #ffffff; 
+    font-size: 14px;
+}
+
+.changelog-header {
+    font-weight: bold; 
+}
+
+.changelog-list {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.changelog-list li {
+    color: #ffffff; 
+    font-size: 14px;
+}
+
+.download-link {
+    color: #00A65A;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 10px;
+    display: inline-block;
+    transition: color 0.3s;
+}
+
+.download-link::before {
+    content: "»"; 
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.download-link:hover {
+    color: #00FF80;
+}
+
+.pre-release-versions {
+    list-style: none;
+    padding: 0;
+}
+
+.pre-release-version {
+    background-color: #1E1E1E; 
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+.pre-release-version h3 {
+    color: #ffffff; 
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.pre-release-version a {
+    color: #00A65A;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 10px;
+    display: inline-block;
+    transition: color 0.3s;
+}
+
+.pre-release-version a::before {
+    content: "»"; 
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.pre-release-version a:hover {
+    color: #00FF80;
+}
+
+.release-description {
+    color: #ffffff; 
+    font-size: 14px;
+    margin-top: 15px;
+}
+
+@media (max-width: 768px) {
+    .content {
+        margin-left: 0; 
+        padding: 10px; 
+    }
+    
+    .section {
+        margin-top: 10px; 
+    }
+    
+    .release-version,
+    .pre-release-version {
+        padding: 10px; 
+    }
+    
+    .release-version h3,
+    .pre-release-version h3 {
+        font-size: 16px; 
+    }
+    
+    .changelog {
+        padding: 5px; 
+    }
+    
+    .changelog p {
+        font-size: 12px; 
+    }
+}

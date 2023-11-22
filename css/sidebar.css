@@ -1,0 +1,132 @@
+.sidebar {
+    background-color: #1E1E1E;
+    width: 200px;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding-top: 20px;
+}
+
+.sidebar-content {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.sidebar-logo {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+    margin-left: 15px;
+}
+
+.sidebar-logo img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.sidebar-text {
+    color: #ffffff;
+    font-size: 8px;
+    margin-bottom: 1px;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+    width: 100%;
+}
+
+.sidebar ul li {
+    margin-bottom: 10px;
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 16px;
+    display: flex; 
+    align-items: center; 
+    padding: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.sidebar ul li a:hover {
+    background-color: #00A65A;
+}
+
+.footer {
+    text-align: center;
+    background-color: #2E2E2E; 
+    color: #ffffff; 
+    padding: 20px 0; 
+    clear: both; 
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    margin-top: 30px
+}
+
+.content .footer a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s, background-color 0.3s; 
+}
+
+.content .footer a:hover {
+    color: #00FF80;
+    background-color: transparent; 
+}
+
+.contact-info,
+.social-icons {
+    flex: 1;
+}
+
+.contact-info h3,
+.social-icons h3 {
+    font-size: 18px; 
+    margin-bottom: 10px; 
+}
+
+.contact-info p,
+.social-icons a {
+    font-size: 16px; 
+    margin-bottom: 5px; 
+}
+
+.social-icons img {
+    width: 30px; 
+    margin: 0 10px; 
+}
+
+.copyright {
+    flex: 1;
+    font-size: 14px; 
+}
+
+@media (max-width: 768px) {
+    .sidebar {
+        width: 100%; 
+        height: auto; 
+        position: static; 
+    }
+    .footer {
+        padding: 10px 0; 
+    }
+
+    .contact-info {
+        font-size: 14px; 
+    }
+
+    .social-icons img {
+        width: 25px; 
+    }
+
+    .copyright {
+        font-size: 12px; 
+    }
+}

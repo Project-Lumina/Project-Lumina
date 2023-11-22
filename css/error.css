@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #121212; 
+    font-family: 'Lexend', sans-serif; 
+    color: #ffffff;
+    margin: 0; 
+}
+
+.error-container {
+    text-align: center;
+    padding: 100px; 
+}
+
+.error-title {
+    font-size: 36px;
+    font-weight: bold;
+    color: #ff0000; 
+    margin-bottom: 20px;
+    margin-left: 200px
+}
+
+.error-message {
+    font-size: 24px;
+    margin-top: 20px;
+    margin-left: 200px
+}
+
+@media (max-width: 768px) {
+
+    .error-title {
+        font-size: 36px;
+        font-weight: bold;
+        color: #ff0000;
+        margin-bottom: 20px;
+        margin-left: 0px
+    }
+
+    .error-message {
+        font-size: 24px;
+        margin-top: 20px;
+        margin-left: 0px
+    }
+}

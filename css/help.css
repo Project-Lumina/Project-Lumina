@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #121212; 
+    font-family: 'Lexend', sans-serif; 
+    color: #ffffff;
+    margin: 0; 
+}
+
+.content {
+    margin-left: 220px; 
+    padding: 20px;
+}
+
+.help-center {
+    text-align: center;
+    color: #ffffff; 
+    padding-top: 20px;
+}
+
+.help-center p {
+    margin-top: 20px; 
+}
+
+.section {
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.guides h2,
+.support-articles h2 {
+    color: #00A65A; 
+    font-size: 24px;
+    font-weight: bold;
+    padding-bottom: 1px; 
+}
+
+.guide,
+.article {
+    background-color: #1E1E1E; 
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+.guide h3,
+.article h3 {
+    color: #ffffff; 
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.guide p,
+.article p {
+    color: #ffffff; 
+    font-size: 14px;
+}
+
+.guide a,
+.article a {
+    color: #00A65A;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 10px;
+    display: inline-block;
+    transition: color 0.3s;
+}
+
+.guide a::before,
+.article a::before {
+    content: "»"; 
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.guide a:hover,
+.article a:hover {
+    color: #00FF80;
+}
+
+@media (max-width: 768px) {
+    .content {
+        margin-left: 0; 
+        padding: 10px; 
+    }
+    
+    .section {
+        margin-top: 10px; 
+    }
+    
+    .guide,
+    .article {
+        flex: 1;
+        min-width: 100%; 
+    }
+}

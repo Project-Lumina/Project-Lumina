@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #121212;
+    font-family: 'Lexend', sans-serif;
+    color: #ffffff;
+    margin: 0;
+}
+
+.banner {
+    position: relative;
+    min-height: 300px;
+    background-image: url("media/banner.jpg");
+    background-size: cover;
+    background-position: center center;
+    border-bottom: 4px solid #1E1E1E;
+}
+
+.banner img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+}
+
+.banner-text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.banner-text {
+    color: #ffffff;
+    font-size: 24px;
+    margin: 20px 0;
+}
+
+.shortcut-icon {
+    max-width: 500px;
+    height: auto;
+    margin-top: 10px;
+}
+
+.banner p {
+    color: #ffffff;
+    font-size: 24px;
+    margin: 20px 0;
+}
+
+.content {
+    margin-left: 200px;
+    padding: 20px;
+}
+
+.modules {
+    margin-top: 20px;
+}
+
+.download-section {
+    margin-top: 20px;
+}
+
+.modules h2 {
+    color: #00A65A;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.module-images img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.download-section h3 {
+    color: #00A65A;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.download-button,
+.download-guide-button {
+    background-color: #00A65A;
+    color: #ffffff;
+    font-size: 16px;
+    display: inline-block;
+    padding: 10px 20px;
+    margin-right: 10px;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.download-button:hover,
+.download-guide-button:hover {
+    background-color: #1E1E1E;
+}
+
+.download-button,
+.download-guide-button {
+    margin-bottom: 20px;
+}
+
+.videos {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.videos iframe {
+    max-width: 48%;
+    height: 315px;
+    border: none;
+    margin-bottom: 10px;
+}
+
+.disclaimer h2 {
+    color: #00A65A;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.disclaimer p {
+    margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+    .content {
+        margin-left: 0;
+    }
+
+    .banner {
+        min-height: 200px;
+    }
+
+    .videos {
+        flex-direction: column;
+    }
+
+    .videos iframe {
+        max-width: 100%;
+    }
+
+    .download-button,
+    .download-guide-button {
+        font-size: 18px;
+    }
+}
