@@ -4,10 +4,10 @@
   # Project Lumina
 
   [![GitHub all releases](https://img.shields.io/github/downloads/riqvip/Project-Lumina/total?label=Downloads&logo=GitHub)](https://github.com/riqvip/Project-Lumina/releases)
-  [![Patreon Join](https://img.shields.io/badge/Support-$3-cca235?logo=Patreon)](https://patreon.com/projectlumina)
-  [![Discord Members](https://img.shields.io/discord/1108765458309587096?label=Members&logo=Discord&style=flat&color=#1A6334)](https://discord.com/invite/7ppv6m7huM) \
+  [![GitHub contributors](https://img.shields.io/github/contributors/riqvip/Project-Lumina?label=Contributors&logo=GitHub)](https://github.com/riqvip/Project-Lumina/graphs/contributors)
+  [![GitHub commit activity](https://img.shields.io/github/commit-activity/m/riqvip/Project-Lumina/gh-pages?label=Commits&logo=GitHub)](https://github.com/riqvip/Project-Lumina/commits/gh-pages) \
+  [![Discord Members](https://img.shields.io/discord/1108765458309587096?label=Members&logo=Discord&style=flat&color=#1A6334)](https://discord.com/invite/7ppv6m7huM)
   [![YouTube Subscribers](https://img.shields.io/youtube/channel/subscribers/UC5FKOT4QgTMt5oDpBs6xYWw)](https://youtube.com/@ProjectLuminaMC)
-  [![X (formerly Twitter) Follow](https://img.shields.io/twitter/follow/ProjectLumina)](https://twitter.com/ProjectLuminaMC)
   
   The first FREE non-jailbreak mod menu client for Minecraft on iOS devices ported to Shortcuts!
 
@@ -15,9 +15,9 @@
 </div>
 
 ## Information
-As mentioned earlier and in the about section, Project Lumina is the first free non-jailbreak client for Minecraft on iOS devices. It comes with a diverse mod menu, featuring over 15 modules, covering areas like hacks, combat, UI customization, and options editing. It is a collaborative open-source project, meaning the community makes updates to it rather than a team of developers.
+As mentioned earlier and in the about section, Project Lumina is the first free non-jailbreak client for Minecraft on iOS devices. It comes with a diverse mod menu, featuring over 15 modules, covering areas like hacks, combat, UI customization, and options editing. It is a collaborative open-source project, meaning the community makes most updates to it rather than a team of developers.
 
-Please check out the [GitHub Wiki](https://github.com/riqvip/Project-Lumina/wiki) before asking any questions, as it may help.
+Please check out the [GitHub Wiki](https://github.com/riqvip/Project-Lumina/wiki) or [Website FAQ](https://projectlumina.xyz/faq) before asking any questions, as they may help.
 
 ### Contribution
 If you are interested in contributing, please read [CONTRIBUTING.md](https://github.com/riqvip/Project-Lumina/blob/main/CONTRIBUTING.md).
