@@ -1,71 +1,62 @@
 # 🚀 Contributing to Project Lumina
 
-We appreciate your interest in contributing to Project Lumina. Here you can find information on the contribution process.
+Thank you for considering contributing to Project Lumina! Your efforts play a vital role in making this project better for everyone. Below is a simple rundown of the contribution process. For a more comprehensive guide on pull requests, we recommend checking [GitHub's official documentation](https://docs.github.com/en/pull-requests).
 
-### Getting Started
+## Simple Run Down for Contributing
 
-1. Fork the repository on GitHub.
-2. Clone the forked repository to your local machine (unless you edit it via github.com).
-3. Create a new branch for your contributions if necessary.
+1. **Fork:** Begin by forking the repository on GitHub.
+2. **Clone:** Clone the forked repository to your local machine (or edit via github.com).
+3. **Branch:** Create a new branch for your contributions if necessary.
+4. **Commit:** Make changes and commit them.
+5. **Push:** Push your changes to your fork on GitHub.
+6. **Pull Request:** Open a pull request and explain your contributions.
 
-### Making Changes
+## Submitting your own Category or Pack
 
-1. Make your changes in accordance with the project's coding standards.
-2. Test your changes thoroughly to avoid introducing bugs.
-3. Commit your changes with clear and concise commit messages.
+If you wish to add your own category or pack to the mod menu in the shortcut, follow these steps for the `gh-pages` branch:
 
-### Submitting a Pull Request
+- **Pack Preparation:** Create a folder on your local device containing .mcpack, .zip, and pack icon files. Ensure filenames match the pack's name in lowercase (e.g., esp.mcpack, esp.zip, and esp.png).
+- **Upload:** Upload the folder to any 'category directory' within the [packs directory](https://github.com/riqvip/Project-Lumina/tree/gh-pages/packs). For example, you can upload it to the "hacks" directory.
+   - Optionally, you can add a new category directory (steps on this are further down), but note that it may not be accepted as unnecessary categories are discouraged.
+- **Update packs.json:** Add your pack to the packs.json file in the packs directory. Refer to the JSON code block for guidance.
 
-1. Push your changes to your fork on GitHub.
-2. Open a pull request on the [development branch](https://github.com/riqvip/Project-Lumina/tree/dev) for regular updates.
-   - If your contribution is intended for a stable release, you can open a pull request on the [main branch](https://github.com/riqvip/Project-Lumina).
+```json
+"(Pack Name)": {
+  "author": "(Your Username)",
+  "description": "(Pack Description)",
+  "icon": "https://projectlumina.xyz/packs/(category)/(pack name)/(pack name).(image extension)",
+  "zip": "https://projectlumina.xyz/packs/(category)/(pack name)/(pack name).zip",
+  "mcpack": "https://projectlumina.xyz/packs/(category)/(pack name)/(pack name).mcpack"
+}
+```
 
-3. Provide a detailed description of your changes in the pull request.
+- If you opted to create a new category for your pack, ensure you follow these additional steps:
+   
+   1. **Update packs.json:** Add the new category to the packs.json file. This involves creating an entry for the category, specifying its name and any relevant details.
+      
+   2. **Place Your Pack:** Once the category is added, insert your pack into this newly created category within the packs.json file. Below is a JSON code block for reference.
 
-### Branching Strategy
-
-- **Main Branch (`main`):**
-  - This branch represents the stable and production-ready version.
-  - Only project maintainers or trusted individuals make changes directly to this branch.
-  - Stable releases are created by merging from the development branch.
-
-- **Development Branch (`dev`):**
-  - This branch is for active development and ongoing work.
-  - Contributors create feature branches off of this branch.
-  - Changes are frequently merged into this branch.
-
-- **Website Branch (`gh-pages`):**
-  - This branch is for development on the website.
-  - Contributors modify this branch as it is.
-  - Changes are updated with the pull requests.
+```json
+  "(Category Name)": {
+    "(Pack Name)": {
+      "author": "(Your Username)",
+      "description": "(Pack Description)",
+      "icon": "https://projectlumina.xyz/packs/(category)/(pack name)/(pack name).(image extension)",
+      "zip": "https://projectlumina.xyz/packs/(category)/(pack name)/(pack name).zip",
+      "mcpack": "https://projectlumina.xyz/packs/(category)/(pack name)/(pack name).mcpack"
+    }
+  }
+```
+> **Note:** You can look at the current version of the [packs.json](https://github.com/riqvip/Project-Lumina/blob/gh-pages/packs/packs.json) file for layout of the categories and packs to know the full structure.
 
 ## Guidelines
+Contribute effectively by adhering to these guidelines:
 
-There are guidelines that must be followed when contributing to Project Lumina.
+- Ensure contributions include necessary and related changes.
+- Include appropriate tests, and confirm existing tests pass.
+- Treat all contributors with respect, avoiding harassment or discrimination.
+- Mind security implications, addressing and reporting vulnerabilities.
+- Verify contributions align with the project's chosen license.
 
-  - **Changes:**
-    - Contributions must include necessary and related changes, such as relation to Minecraft addons.
-  - **Code Quality and Style:**
-    - Ensure that your code follows the project's coding standards and style guide. Consistent coding practices contribute to maintainable and readable code.
-  - **Documentation and Comments:**
-    - Provide clear and comprehensive documentation for your contributions. This includes adding helpful comments to your code, updating the README, or contributing to the project's Wiki.
-  - **Testing and Test Coverage:**
-    - Include appropriate tests for your changes, and make sure that existing tests pass. Adequate test coverage helps maintain the reliability of the codebase.
-  - **Collaborative Communication:**
-    - Foster an inclusive and welcoming environment where all contributors feel valued and heard. Encourage collaborative and constructive communication among contributors.
-  - **Community Guidelines:**
-    - Abide by the project's code of conduct and community guidelines. Treat all contributors with respect and professionalism, avoiding any form of harassment or discrimination.
-  - **Security Considerations:**
-    - Be mindful of potential security implications in your changes. Prioritize the security of the project by proactively addressing and reporting vulnerabilities.
-  - **Licensing Compliance:**
-    - Confirm that your contributions adhere to the project's chosen license. Verify that your contributions align with the project's licensing terms to ensure proper legal compliance.
-  - **Versioning:**
-    - Follow the project's versioning strategy when making changes. Adhere to the project's versioning conventions to maintain consistency and clarity in version releases.
-
-### Thank You!
-
-Thank you for your contribution to Project Lumina. Your efforts help make this project better for everyone.
-
-If you have any questions or need further assistance, feel free to reach out on our [Discord server](https://discord.com/invite/7ppv6m7huM).
-
-Happy coding!
+## Thank You!
+Your contribution makes Project Lumina even better. For questions or assistance, join our [Discord server](https://discord.com/invite/7ppv6m7huM).
