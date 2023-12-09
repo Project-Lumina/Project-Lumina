@@ -1,0 +1,85 @@
+{
+  "Hacks": {
+    "ESP": {
+      "author": "DKG770",
+      "description": "Allows you to see chests and entities through walls.",
+      "icon": "https://projectlumina.xyz/shortcut/packs/hacks/esp/esp.jpg",
+      "zip": "https://projectlumina.xyz/shortcut/packs/hacks/esp/esp.zip",
+      "mcpack": "https://projectlumina.xyz/shortcut/packs/hacks/esp/esp.mcpack"
+    },
+    "X-Ray": {
+      "author": "FelixTW",
+      "description": "Allows you to see ores through blocks.",
+      "icon": "https://projectlumina.xyz/shortcut/packs/hacks/x-ray/x-ray.jpg",
+      "zip": "https://projectlumina.xyz/shortcut/packs/hacks/x-ray/x-ray.zip",
+      "mcpack": "https://projectlumina.xyz/shortcut/packs/hacks/x-ray/x-ray.mcpack"
+    },
+    "Invisible": {
+      "author": "riqvip",
+      "description": "Turns your skin invisible.",
+      "icon": "https://projectlumina.xyz/shortcut/packs/hacks/invisible/invisible.png",
+      "zip": "https://projectlumina.xyz/shortcut/packs/hacks/invisible/invisible.zip",
+      "mcpack": "https://projectlumina.xyz/shortcut/packs/hacks/invisible/invisible.mcpack"
+    }
+  },
+  "Combat": {
+    "Armor Tags": {
+      "author": "Chainsketch",
+      "description": "Displays what other players are wearing and using.",
+      "icon": "https://projectlumina.xyz/shortcut/packs/combat/armortags/armortags.webp",
+      "zip": "https://projectlumina.xyz/shortcut/packs/combat/armortags/armortags.zip",
+      "mcpack": "https://projectlumina.xyz/shortcut/packs/combat/armortags/armortags.mcpack"
+    },
+    "Health Tags": {
+      "author": "Coptaine",
+      "description": "Displays the health of entities.",
+      "icon": "https://projectlumina.xyz/shortcut/packs/combat/healthtags/healthtags.png",
+      "zip": "https://projectlumina.xyz/shortcut/packs/combat/healthtags/healthtags.zip",
+      "mcpack": "https://projectlumina.xyz/shortcut/packs/combat/healthtags/healthtags.mcpack"
+    },
+    "Hitbox Display": {
+      "author": "ambient",
+      "description": "Displays the hitboxes of players.",
+      "icon": "https://projectlumina.xyz/shortcut/packs/combat/hitboxdisplay/hitboxdisplay.png",
+      "zip": "https://projectlumina.xyz/shortcut/packs/combat/hitboxdisplay/hitboxdisplay.zip",
+      "mcpack": "https://projectlumina.xyz/shortcut/packs/combat/hitboxdisplay/hitboxdisplay.mcpack"
+    }
+  },
+  "UI Customizer": {
+    "Freelook": {
+      "author": "TheInfamousFish",
+      "description": "Lets you view yourself in a 360 degree angle.",
+      "icon": "https://projectlumina.xyz/shortcut/packs/uicustomizer/freelook/freelook.webp",
+      "zip": "https://projectlumina.xyz/shortcut/packs/uicustomizer/freelook/freelook.zip",
+      "mcpack": "https://projectlumina.xyz/shortcut/packs/uicustomizer/freelook/freelook.mcpack"
+    },
+    "No Totem": {
+      "author": "ItzGamerBonez",
+      "description": "Hides your totem from the screen.",
+      "icon": "https://projectlumina.xyz/shortcut/packs/uicustomizer/nototem/nototem.jpg",
+      "zip": "https://projectlumina.xyz/shortcut/packs/uicustomizer/nototem/nototem.zip",
+      "mcpack": "https://projectlumina.xyz/shortcut/packs/uicustomizer/nototem/nototem.mcpack"
+    },
+    "Waypoints": {
+      "author": "Lakhii",
+      "description": "Lets you mark anywhere with an armor stand and a locator map.",
+      "icon": "https://projectlumina.xyz/shortcut/packs/uicustomizer/waypoints/waypoints.jpg",
+      "zip": "https://projectlumina.xyz/shortcut/packs/uicustomizer/waypoints/waypoints.zip",
+      "mcpack": "https://projectlumina.xyz/shortcut/packs/uicustomizer/waypoints/waypoints.mcpack"
+    },
+    "No Pumpkin": {
+      "author": "sunsun_mlgpro",
+      "description": "Removes the carved pumpkin overlay when on head.",
+      "icon": "https://projectlumina.xyz/shortcut/packs/uicustomizer/nopumpkin/nopumpkin.jpg",
+      "zip": "https://projectlumina.xyz/shortcut/packs/uicustomizer/nopumpkin/nopumpkin.zip",
+      "mcpack": "https://projectlumina.xyz/shortcut/packs/uicustomizer/nopumpkin/nopumpkin.mcpack"
+    },
+    "Gote Supporter": {
+      "author": "YukaYamaSan",
+      "description": "Adds a clock and compass to the top right of your screen.",
+      "icon": "https://projectlumina.xyz/shortcut/packs/uicustomizer/gotesupporter/gotesupporter.webp",
+      "zip": "https://projectlumina.xyz/shortcut/packs/uicustomizer/gotesupporter/gotesupporter.zip",
+      "mcpack": "https://projectlumina.xyz/shortcut/packs/uicustomizer/gotesupporter/gotesupporter.mcpack"
+    }
+  }
+}
