@@ -5,14 +5,14 @@
     },
     "GitHub": {
         "url": "https://github.com/riqvip/Project-Lumina",
-        "icon": "https://projectlumina.xyz/packs/shortcut/icons/connections/github.png"
+        "icon": "https://projectlumina.xyz/shortcut/icons/connections/github.png"
     },
     "Discord": {
         "url": "https://discord.com/invite/7ppv6m7huM",
-        "icon": "https://projectlumina.xyz/packs/shortcut/icons/connections/discord.png"
+        "icon": "https://projectlumina.xyz/shortcut/icons/connections/discord.png"
     },
     "YouTube": {
         "url": "https://youtube.com/@ProjectLuminaMC",
-        "icon": "https://projectlumina.xyz/packs/shortcut/icons/connections/youtube.png"
+        "icon": "https://projectlumina.xyz/shortcut/icons/connections/youtube.png"
     }
 }
