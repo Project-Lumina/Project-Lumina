@@ -1,6 +1,18 @@
 {
-    "Website": "https://projectlumina.xyz/shortcut/icons/connections/website.png",
-    "GitHub": "https://projectlumina.xyz/packs/shortcut/icons/connections/github.png",
-    "Discord": "https://projectlumina.xyz/packs/shortcut/icons/connections/discord.png",
-    "YouTube": "https://projectlumina.xyz/packs/shortcut/icons/connections/youtube.png"
+    "Website": {
+        "url": "https://projectlumina.xyz/",
+        "icon": "https://projectlumina.xyz/shortcut/icons/connections/website.png"
+    },
+    "GitHub": {
+        "url": "https://github.com/riqvip/Project-Lumina",
+        "icon": "https://projectlumina.xyz/packs/shortcut/icons/connections/github.png"
+    },
+    "Discord": {
+        "url": "https://discord.com/invite/7ppv6m7huM",
+        "icon": "https://projectlumina.xyz/packs/shortcut/icons/connections/discord.png"
+    },
+    "YouTube": {
+        "url": "https://youtube.com/@ProjectLuminaMC",
+        "icon": "https://projectlumina.xyz/packs/shortcut/icons/connections/youtube.png"
+    }
 }
